@@ -1,0 +1,9 @@
+services:
+  chess:
+    build:
+      context: ./chess
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+      - "8083:8083"
